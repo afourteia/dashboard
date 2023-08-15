@@ -35,8 +35,8 @@ mongoose
     app.listen(PORT, () => {
       console.log(`Server is running on port ${PORT}`)
     })
-    await mongoose.connection.db.dropDatabase()
-    KPI.insertMany(kpis)
+    // await mongoose.connection.db.dropDatabase()
+    // KPI.insertMany(kpis)
   })
   .catch((error) => {
     console.log(`${error} did not connect`)
