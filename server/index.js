@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors())
 
 /* ROUTES */
-app.use('/api/kpi', kpiRoutes)
+app.use('/kpi', kpiRoutes)
 
 /* MONGOOSE */
 const PORT = process.env.PORT || 9000

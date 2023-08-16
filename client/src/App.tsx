@@ -22,7 +22,15 @@ function App() {
                 <Route path='/' element={<Dashboard />} />
                 <Route
                   path='/predictions'
-                  element={<div>Predictions page</div>}
+                  element={
+                    <div
+                      style={{
+                        backgroundColor: 'white',
+                      }}
+                    >
+                      Prediction
+                    </div>
+                  }
                 />
               </Routes>
             </Box>
